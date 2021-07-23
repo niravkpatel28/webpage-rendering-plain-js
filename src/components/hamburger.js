@@ -38,7 +38,7 @@ export const Hamburger = () => {
   const menuIcon = document.createElement("img");
 
   // intialize menu icon with a hamburger icon
-  menuIcon.src = "../../images/menu-black.png";
+  menuIcon.src = `${baseLink}/webpage/menu-black.png`;
 
   markUp.appendChild(menuIcon);
   return markUp;
