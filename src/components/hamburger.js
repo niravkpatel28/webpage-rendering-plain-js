@@ -3,6 +3,7 @@
   <img src="" alt="" />
 </div>; */
 }
+import { baseLink } from "../data/data.js";
 export const Hamburger = () => {
   const state = {
     //   this state to check if the hamburger is clicked
@@ -18,12 +19,12 @@ export const Hamburger = () => {
 
     if (state.isMenuOpen) {
       // if menu is open replace the icon with a close button
-      menuIcon.src = "../../images/close.png";
+      menuIcon.src = `${baseLink}/webpage/close.png`;
       // add class open-nav to display nav-container
       navContainer.classList.add("open-nav");
     } else {
       // if menu is closed the icon should be menu (hamburger) icon
-      menuIcon.src = "../../images/menu-black.png";
+      menuIcon.src = `${baseLink}/webpage/menu-black.png`;
       // remove class open-nav to hide the nav-container
       navContainer.classList.remove("open-nav");
     }

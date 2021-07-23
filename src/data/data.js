@@ -1,4 +1,5 @@
-const baseLink = "https://niravkpatel28.github.io/github-image-repository";
+export const baseLink =
+  "https://niravkpatel28.github.io/github-image-repository";
 export const bannerData = {
   companyName: "Render Webpage using JavaScript Object",
   tagline: "using modular code for page rendering",
