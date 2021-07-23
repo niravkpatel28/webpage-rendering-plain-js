@@ -50,4 +50,6 @@ all the necessary code from different modules.
 
 This simplifies the process of writing code. The code complexity can be
 abstracted into separate modules and relevant functionality can be exported out
-of a module to be used by another part of the application.
+of a module to be used by another part of the application. A working demo of
+this page is present
+[here].(https://niravkpatel28.github.io/webpage-rendering-plain-js/).
