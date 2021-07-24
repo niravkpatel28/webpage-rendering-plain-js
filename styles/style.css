@@ -110,10 +110,14 @@
 .banner .btn {
   margin: 10px 100px;
 }
+.banner-heading {
+  /* color: white; */
+}
 
 .banner-tagline {
   font-weight: bold;
   font-size: 1.6rem;
+  /* color: white; */
 }
 
 .banner .btn {
@@ -122,6 +126,8 @@
 }
 
 .banner :last-child {
-  background: white;
-  color: black;
+  /* background: white; */
+  background-color: black;
+  color: white;
+  /* color: black; */
 }
