@@ -1,5 +1,9 @@
 export const baseLink =
   "https://niravkpatel28.github.io/github-image-repository";
+
+const dataEndPoint =
+  "https://niravkpatel28.github.io/json-data-server-v2/webpage/webpage.json";
+
 export const bannerData = {
   companyName: "Render Webpage using JavaScript Object",
   tagline: "using modular code for page rendering",
@@ -45,4 +49,10 @@ export const navData = {
 export const webpageData = {
   navData,
   bannerData,
+};
+
+export const getData = async () => {
+  let data = await await fetch(dataEndPoint);
+  data = await data.json();
+  return data;
 };

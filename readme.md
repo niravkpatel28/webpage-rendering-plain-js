@@ -12,9 +12,10 @@ concepts is necessary
 - CSS styling, usage of id and classes
 - **JavaScript Modules.**
 
-The code splits the code into separate modules to reduce complexity. Each code
+The web-page code is split into separate modules to reduce complexity. Each
 module is responsible for rendering a section of the web-page. Data for the
-web-page is store separately in a **./data/data.js** file.
+web-page is store separately in a **./data/data.js** file. This is to mimic any
+data that is received after making a call to a backend api, or a CMS.
 
 ```
 Folder Structure
